@@ -22,7 +22,7 @@ pipeline{
         agent{ 
          docker{
              reusenode false
-             image"ubuntu"
+             image"ubuntu:latest"
              }
              }
            steps{
