@@ -21,7 +21,7 @@ pipeline{
         stage("intigration test"){
         agent{ 
          docker{
-             reusenode false
+             reuseNode false
              image"ubuntu:latest"
              }
              }
